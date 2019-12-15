@@ -1,0 +1,23 @@
+Creative Courtesy License
+Version 0.0.3, February 2019
+Copyright 2019 Wavelink Studios
+
+With this license, the person looking at this source (henceforth referred to as 'you'), may not just copy and paste the work of any developer licensing their software with the Creative Courtesy License. You are welcome to make forks of these projects with a few rules surrounding this work (See Section I). The developer using this license is protected from any liability during use of this source in any capacity (See Section II). And the releasing of unmodified projects is prohibited (See Section III)
+
+Section I - Forking
+1)You may not just copy and paste the work of any developer using this license. 
+a)This includes any of the developers of this fork may or may not have been created by.
+2)You must also make sure to credit any and all developers related to this project.
+a)i.e.: If you are forking this and it is a fork of a fork of the main project, you must credit the original developer as well as the 2 developers that have forked up to the point you are using.
+3)Forks you create must have some kind of bug fixes, additional content, or elsewise added in before releasing anything using this source. 
+a)Moving the location of code around within itself does not fall under this rule and is subject to enforcement of punishment for violating this license.
+b)See also Section III for more rules refarding releases. 
+
+Section II - Source Developer(s) Liabilities
+1)The developer(s) who have worked on this source up to this current fork are completely waived of any liability for damages or issues caused by this source in any way
+a)This is including, but not limited to; using this source as is, attempting to modify the source, and from any modifications not by the original developer(s) 
+2)This source is not guaranteed to have been validated for functionality and may be completely unfunctional at this time. 
+
+Section III - Releases
+1)Any attempts to release projects using unmodified code without express consent of the developer(s) is not allowed
+a)This includes, but is not limited to; releasing exact copies of the code within this project, compiling this code with only minor naming changes to attempt to hide original ownership, compiling the code as is, etc. 
