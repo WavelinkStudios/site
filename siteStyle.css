@@ -1,0 +1,162 @@
+body {
+  background-color: black;
+  padding: 15px 25px 15px 25px;
+}
+
+h1 {
+  color: white;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-family: Futura;
+  font-weight: bold;
+}
+
+.textBoxTitle p {
+ padding-top: 2em;
+ font-size: 16;
+ text-transform: uppercase;
+}
+
+.textBox {
+  color: white;
+}
+
+
+ /*Glowing text effect */
+ .glowShadow {
+   text-shadow: 0 0 20px #76D7C4, 0 0 50px #17A589;
+ }
+
+
+/* Read More Button */
+.RMButton {
+  background-color: #148F77;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: Futura;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+}
+
+/* Read More button on hover & focus */
+.RMButton:hover, .RMButton:focus {
+  background-color: #117864;
+}
+
+.imgCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #148F77;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Futura;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #117864;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #EAEDED;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Futura;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* unvisited link */
+a:link {
+  color: #148F77;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #148F77;
+}
+
+/* mouse over link */
+a:hover {
+  color: #117864;
+}
+
+/* selected link */
+a:active {
+  color: #117864;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
