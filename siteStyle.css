@@ -15,6 +15,12 @@ p {
   font-weight: bold;
 }
 
+li {
+  color: white;
+  font-family: Futura;
+  font-weight: bold;
+}
+
 .textBoxTitle p {
  padding-top: 2em;
  font-size: 16;
@@ -57,6 +63,22 @@ p {
   margin-right: auto;
   height: auto;
   max-width: 100%;
+}
+
+.imgDepicSS {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 75%;
+}
+
+.imgDepicMain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 50%;
 }
 
 /* Dropdown Button */
