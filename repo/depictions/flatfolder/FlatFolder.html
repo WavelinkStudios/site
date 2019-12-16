@@ -1,70 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Wavelink Studios</title>
-    <meta charset="utf-8">
-    <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
-    <link rel="stylesheet" href="../../css/iOSStyles.css">
-  </head>
-  <body>
-    <!— Top navbar —>
-    <div class="navbar">
-      <div class="title" on-click="location.reload();">FlatFolder</div>
+<html>
+<head>
+<title>Wavelink Studios Repo</title>
+<meta charset="utf-8">
+<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+<link rel="stylesheet" type="text/css" href="../../../siteStyle.css">
+<script src="../../../siteJS.js"></script>
+</head>
+<body>
+  <h1 class="glowShadow">BundleIDsII</h1>
+  <!-- Drop Down Menu for Navigation -->
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">☰ Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="../../../index.html">Home</a>
+      <a href="../../../about.html">About Us</a>
+      <a href="../../../projects.html">Projects</a>
+      <a href="../../index.html">Cydia Repo</a>
     </div>
-    <!— Description tableview —>
-    <div class="label">Description</div>
-    <div class="ios-tableview">
-      <div class="cell">
-        <p>Flatten out them folders! This currently just makes the folders more flat looking. It may have additional preferences in the future but that's still up in the air at this moment in time. Tested on iOS 12 devices only. Compiled for arm64e but not yet tested on one. Use on pre-iOS 12 and arm64e devices at your own risk.
-        </p>
-      </div>
-    </div>
-    <!— Screenshots tableviews —>
-    <div class="label">Screenshots</div>
-    <div class="ios-tableview">
-      <div class="cell-line">
-        <p><img src="screenshots/shot1.jpg" style="height:50%;width:50%;" class="image-center"></p>
-      </div>
-      <div class="cell">
-        <p><a class="ios-link-table" href="Screenshots.html">All Screenshots</a></p>
-        <p class="table-arrow">></p>
-      </div>
-    </div>
-    <!— Compatibility tableview —>
-    <div class="label">Compatibility</div>
-    <div class="ios-tableview">
-      <div class="cell">
-        <p>iOS 12.0-12.1.2
-        </p>
-      </div>
-    </div>
-    <!— Recent changes tableviews —>
-    <div class="label">Recent Changes in  0.0.1-1</div>
-    <div class="ios-tableview">
-      <div class="cell-line">
-        <p>Initial Release</p>
-      </div>
-     <div class="cell">
-        <p><a class="ios-link-table" href="Changes.html">All Changes</a></p>
-        <p class="table-arrow">></p>
-      </div>
-    </div>
-    <!— Dependencies tableviews —>
-    <div class="label">Dependencies</div>
-    <div class="ios-tableview">
-      <div class="cell">
-        <p>mobilesubstrate</p>
-      </div>
-    </div>
-    <!— External links tableviews —>
-    <div class="label">Links</div>
-    <div class="ios-tableview">
-      <div class="cell-line">
-        <p><a class="ios-link external" href="https://www.twitter.com/wavelinkstudios">Wavelink Studios Twitter</a></p>
-      </div>
-      <div class="cell">
-        <p><a class="ios-link external" href="https://github.com/tdadvocate/flatfolder">Source Code</a></p>
-      </div>
-    </div>
-  </body>
+  </div>
+  <!-- BundleIDsII text box -->
+  <div class="textBoxTitle">
+  	<p>Description</p>
+  </div>
+  <hr size="2.5" width="100" color="white" align="left">
+  <div class="textBox">
+    <p>Flatten out them folders! This currently just makes the folders more flat looking. It may have additional preferences in the future but that's still up in the air at this moment in time. Tested on iOS 12 devices only. Compiled for arm64e but not yet tested on one. Use on pre-iOS 12 and arm64e devices at your own risk.</p>
+  </div>
+  <!-- Screenshots text box -->
+  <div class="textBoxTitle">
+  	<p>Screenshots</p>
+  </div>
+  <hr size="2.5" width="100" color="white" align="left">
+  <div class="textBox">
+    <br>
+    <img src="./screenshots/shot1.jpg" class="imgDepicMain">
+    <br>
+    <a href="./screenshots.html"><button class="RMButton">All Screenshots</button></a>
+  </div>
+  <!-- Compatibility text box -->
+  <div class="textBoxTitle">
+  	<p>Compatibility</p>
+  </div>
+  <hr size="2.5" width="100" color="white" align="left">
+  <div class="textBox">
+    <p>iOS 12.0-12.1.2</p>
+  </div>
+  <!-- Recent Changes text box -->
+  <div class="textBoxTitle">
+  	<p>Recent Changes in 0.0.1-1</p>
+  </div>
+  <hr size="2.5" width="100" color="white" align="left">
+  <div class="textBox">
+    <p>      
+      <ul>
+        <li>Initial release</li>
+      </ul>
+    </p>
+    <a href="./changes.html"><button class="RMButton">All Changes</button></a>
+  </div>
+  <!-- Dependencies text box -->
+  <div class="textBoxTitle">
+  	<p>Dependencies</p>
+  </div>
+  <hr size="2.5" width="100" color="white" align="left">
+  <div class="textBox">
+    <p>
+      <ul>
+        <li>mobilesubstrate</li>
+      </ul>
+    </p>
+  </div>
+</body>
 </html>
