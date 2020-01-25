@@ -12,6 +12,7 @@ MD5sum: 65e58c4690181ebdea8d856d63f5c376
 Description: App to see installed app bundle IDs.
 Name: BundleIDsXI
 Author: TD
+Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
 
 Package: com.wavelink.flatfolder
 Version: 0.0.1
