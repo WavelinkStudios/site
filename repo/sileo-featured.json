@@ -1,0 +1,17 @@
+{
+    "class":"FeaturedBannersView",
+    "itemSize":"{263, 148}",
+    "itemCornerRadius":10,
+    "banners":[
+       {
+          "title":"BundleIDsXI",
+          "package":"com.wavelink.bundleidsxi",
+          "url":"https://chariz.com/cdn/icon/runtimebrowser/icon@3x.png"
+       },
+       {
+          "title":"BundleIDsXI (No App Icons)",
+          "package":"com.wavelink.bundleidsxinoappicons",
+          "url":"https://chariz.com/cdn/icon/daisy/icon@3x.png"
+       }
+    ]
+ }
