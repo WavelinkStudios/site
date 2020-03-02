@@ -6,12 +6,12 @@
        {
           "title":"BundleIDsXI",
           "package":"com.wavelink.bundleidsxi",
-          "url":"https://chariz.com/cdn/icon/runtimebrowser/icon@3x.png"
+          "url":"#"
        },
        {
           "title":"BundleIDsXI (No App Icons)",
           "package":"com.wavelink.bundleidsxinoappicons",
-          "url":"https://chariz.com/cdn/icon/daisy/icon@3x.png"
+          "url":"#"
        }
     ]
  }
