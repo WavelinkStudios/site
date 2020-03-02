@@ -6,12 +6,12 @@
        {
           "title":"BundleIDsXI",
           "package":"com.wavelink.bundleidsxi",
-          "url":"#"
+          "url":"./featImg/bids-icon@3x.png"
        },
        {
           "title":"BundleIDsXI (No App Icons)",
           "package":"com.wavelink.bundleidsxinoappicons",
-          "url":"#"
+          "url":"./featImg/bids-icon@3x.png"
        }
     ]
  }
