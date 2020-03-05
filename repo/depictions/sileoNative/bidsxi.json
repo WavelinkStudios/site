@@ -15,22 +15,22 @@
                     "itemSize": "{160, 284}",
                     "screenshots": [
                         {
-                            "accessibilityText": " Screenshot One",
+                            "accessibilityText": "Screenshot One",
                             "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot1.jpg" 
                         },
                         {
-                            "accessibilityText": " Screenshot Two",
+                            "accessibilityText": "Screenshot Two",
                             "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot2.jpg"
                         },
                         {
-                            "accessibilityText": " Screenshot Three",
+                            "accessibilityText": "Screenshot Three",
                             "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot3.jpg"
                         }
                     ]
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "*Supports iOS 11 and 12*\n\nDune adds a new, dark look to iOS Elements.\n\nBanners, notifications, widgets, folders, the dock, and more! Light blurs are replaced with native looking dark blurs.\n\nDune is open-source on GitHub. Feel free to contribute to make it even better!"
+                    "markdown": "*Supports iOS 11-13*\n\nThis app allows you to see the Bundle ID's of all the applications installed on your device.\n\nThis package is completely open sourced and can be found on github!"
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -67,7 +67,7 @@
                         },
                         {
                             "class": "DepictionTableButtonView",
-                            "title": "Contribute on Github",
+                            "title": "Github Source Code",
                             "action": "https:\/\/github.com\/tdadvocate",
                             "openExternal": true
                         }
