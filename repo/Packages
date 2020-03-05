@@ -30,6 +30,7 @@ Description: App to see installed app bundle IDs.
 Name: BundleIDsXI (No App Icons)
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxinoappicons/bidsxinoappicons.html
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxinoappicons.json
 
 Package: com.wavelink.flatfolder
 Version: 0.0.1
@@ -45,4 +46,5 @@ Description: Flatten out them folders!
 Name: FlatFolder
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/flatfolder/flatfolder.html
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
 

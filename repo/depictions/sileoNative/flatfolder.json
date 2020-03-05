@@ -1,0 +1,92 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#148F77",
+    "headerImage": "",
+    "tabs": [
+        {
+            "class":"DepictionStackView",
+            "tabname": "Details",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot One",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/flatfolder\/screenshots\/shot1.jpg" 
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "*Supports iOS 11*\n\nFlatten out them folders! This currently just makes the folders more flat looking. It may have additional preferences in the future but that's still up in the air at this moment in time. Tested on iOS 12 devices only. Compiled for arm64e but not yet tested on one. Use on pre-iOS 12 and arm64e devices at your own risk. Does NOT work on iOS 13!\n\nThis package is completely open sourced and can be found on github!"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information",
+                    "useBoldText": true,
+                    "useBottomMargin": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.0.1"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "TD"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class":"DepictionStackView",
+                    "views":[
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Follow Us on Twitter",
+                            "action": "https:\/\/twitter.com\/wavelinkstudios",
+                            "openExternal": true
+                        },
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Github Source Code",
+                            "action": "https:\/\/github.com\/tdadvocate",
+                            "openExternal": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 0.0.1-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial release."
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Beta release."
+                }
+            ]
+        }
+    ]
+}

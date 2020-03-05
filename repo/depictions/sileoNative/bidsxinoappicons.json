@@ -16,15 +16,15 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot One",
-                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot1.jpg" 
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxinoappicons\/screenshots\/shot1.jpg" 
                         },
                         {
                             "accessibilityText": "Screenshot Two",
-                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot2.jpg"
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxinoappicons\/screenshots\/shot2.jpg"
                         },
                         {
                             "accessibilityText": "Screenshot Three",
-                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi\/screenshots\/shot3.jpg"
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxinoappicons\/screenshots\/shot3.jpg"
                         }
                     ]
                 },
@@ -88,7 +88,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "iOS 13 Support - Thanks to Ethan Whited for this fix! Hides new internal applications added with iOS 13.0-13.3.1. Brings back manual dismissal for the single app alert view by popular demand."
+                    "markdown": "Removes App Icons from the list view within the app. Hides new internal applications added with iOS 13.0-13.3."
                 },
                 {
                     "class": "DepictionSeparatorView"
