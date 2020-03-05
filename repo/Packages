@@ -13,6 +13,7 @@ Description: App to see installed app bundle IDs.
 Name: BundleIDsXI
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/sileoNative/bidsxi.json
 
 Package: com.wavelink.bundleidsxinoappicons
 Version: 1.3.0
