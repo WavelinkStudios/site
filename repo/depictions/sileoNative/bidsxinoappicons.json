@@ -219,10 +219,6 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "First alpha release. Initial iOS 11-11.4 beta 3 support."
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Beta release."
                 }
             ]
         }
