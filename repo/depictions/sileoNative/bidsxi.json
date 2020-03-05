@@ -2,7 +2,7 @@
     "minVersion": "0.1",
     "class": "DepictionTabView",
     "tintColor": "#148F77",
-    "headerImage": "",
+    "headerImage": "https://wavelinkstudios.github.io/site/repo/featImg/bids-icon@3x.png",
     "tabs": [
         {
             "class":"DepictionStackView",
