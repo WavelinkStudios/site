@@ -9,6 +9,11 @@
           "url":"https://wavelinkstudios.github.io/site/repo/featImg/bids-icon@3x.png"
        },
        {
+         "title":"Better Dark",
+         "package":"com.wavelink.betterdark",
+         "url":""
+       },
+       {
           "title":"BundleIDsXI (No App Icons)",
           "package":"com.wavelink.bundleidsxinoappicons",
           "url":"https://wavelinkstudios.github.io/site/repo/featImg/bids-icon@3x.png"
