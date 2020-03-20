@@ -44,7 +44,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.3.0"
+                    "text": "1.3.1"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -80,6 +80,19 @@
             "tabname": "Changelog",
             "tintColor": "#148F77",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.3.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.4. Fixes depictions. Adds icon in supported package managers."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,

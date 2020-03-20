@@ -3,7 +3,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: TD
 Depends: com.spark.snowboard
-Filename: ./debs/BetterDark.deb
+Filename: ./debs/BetterDark-1.0.0.deb
 Size: 12304678
 MD5sum: 9d768483513cdded492a8d104e58a434
 SHA1: 8a0a2feffa5375cc4251d9f233e7f9a6abfb482a
@@ -16,58 +16,60 @@ Name: Better Dark
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/betterdark.json
 
 Package: com.wavelink.bundleidsxi
-Version: 1.3.0
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: TD
 Installed-Size: 336
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxinoappicons
-Filename: ./debs/com.wavelink.bundleidsxi_1.3.0_iphoneos-arm.deb
-Size: 121742
-MD5sum: f0ad9d6d6fe69095ec0515177eb52fbc
-SHA1: c66c7094062c9dabfe78b160b17e01e328dc192b
-SHA256: 677ca6890b4ebedbad32dbb7911d347de0f6e1539222492fd081337ca8f59ade
+Filename: ./debs/com.wavelink.bundleidsxi_1.3.1_iphoneos-arm.deb
+Size: 121734
+MD5sum: 2cc9f83ae6977597fc9125c79ce1b6b0
+SHA1: 1242662ce0e52bf2b4def8c163300fff11b87c46
+SHA256: bb9baa18d09e31e60e1b07b0c5da71937fbef2c17d6fe3a75488825c3e2c781e
 Section: Utilities
 Description: App to see installed app bundle IDs.
 Author: TD
-Name: BundleIDsXI
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
-SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
+Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
+Name: BundleIDsXI
+Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
 
 Package: com.wavelink.bundleidsxinoappicons
-Version: 1.3.0
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: TD
 Installed-Size: 300
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxi
-Filename: ./debs/com.wavelink.bundleidsxinoappicons_1.3.0_iphoneos-arm.deb
-Size: 121164
-MD5sum: ee95b52e722834de5faa9913ae269aa6
-SHA1: ac115fa37ffbb5ec5a90eb17456b8b974444e6a7
-SHA256: 8bd3fbbcab2c86a959af374db9f581f15bbb308bab81be4db8a016e26061c03f
+Filename: ./debs/com.wavelink.bundleidsxinoappicons_1.3.1_iphoneos-arm.deb
+Size: 121228
+MD5sum: e0781361bea32ddcc20a0c2e6b7d4104
+SHA1: 0240fea25c2325e03304edfb01a26480447e1cdc
+SHA256: ceada69ab19c3bbe8763aab69d5cb90ec73eb14b5a9dae9eeb3486211be762b6
 Section: Utilities
 Description: App to see installed app bundle IDs.
 Author: TD
-Name: BundleIDsXI (No App Icons)
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxinoappicons/bidsxinoappicons.html
-SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxinoappicons.json
+Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
+Name: BundleIDsXI (No App Icons)
+Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxinoappicons.json
 
 Package: com.wavelink.flatfolder
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: TD
 Installed-Size: 320
-Depends: mobilesubstrate, PreferenceLoader
-Filename: ./debs/com.wavelink.flatfolder_0.0.1_iphoneos-arm.deb
-Size: 24442
-MD5sum: 4065ca972ce0049a07fa7e021cdea14d
-SHA1: cc96022d66ef80ba4a391c0ae8e22695f70592ff
-SHA256: 5945f2dd534a8b162e5e6e93aee5c747ab6ee0987e869b1cd36d973f891707c3
+Depends: mobilesubstrate, PreferenceLoader, firmware (<< 13.0)
+Filename: ./debs/com.wavelink.flatfolder_0.0.2_iphoneos-arm.deb
+Size: 24510
+MD5sum: 9bfe7459e0df1dde87d5e531aee6c4a6
+SHA1: 3f204b82cc3e67b1c984421a307d5e90dc6ff11f
+SHA256: cc9dba59eb76471028cd8adb7021b483a06cce452a0878c788cad54b7d845282
 Section: Tweaks
 Description: Flatten out them folders!
 Author: TD
-Name: FlatFolder
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/flatfolder/flatfolder.html
-SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
+Name: FlatFolder
+Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
 

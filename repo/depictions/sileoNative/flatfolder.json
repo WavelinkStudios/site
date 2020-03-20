@@ -36,7 +36,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "0.0.1"
+                    "text": "0.0.2"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -72,6 +72,19 @@
             "tabname": "Changelog",
             "tintColor": "#148F77",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 0.0.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Adding firmware restriction. Fixing depictions."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
