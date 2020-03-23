@@ -1,0 +1,96 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#148F77",
+    "headerImage": "https://wavelinkstudios.github.io/site/repo/packageIcons/SCNP.png",
+    "tabs": [
+        {
+            "class":"DepictionStackView",
+            "tabname": "Details",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot One",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/simpcircnopercent\/screenshots\/shot1.jpg" 
+                        },
+                        {
+                            "accessibilityText": "Screenshot Two",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/simpcircnopercent\/screenshots\/shot2.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot Three",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/simpcircnopercent\/screenshots\/shot3.jpg"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "*Supports iOS 13*\n\nThis package is a theme for Juice by SparkDev based on the default Simple Circle theme. It essentially just removes the percentage symbol and adjusts the font and spacing to work without it."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information",
+                    "useBoldText": true,
+                    "useBottomMargin": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0.0"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "TD"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class":"DepictionStackView",
+                    "views":[
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Wavelink Studios Twitter",
+                            "action": "https:\/\/twitter.com\/wavelinkstudios",
+                            "openExternal": true
+                        },
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Github Source Code",
+                            "action": "https:\/\/github.com\/tdadvocate",
+                            "openExternal": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.0.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial Release"
+                }
+            ]
+        }
+    ]
+}

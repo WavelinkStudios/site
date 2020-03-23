@@ -73,3 +73,21 @@ Depiction: https://wavelinkstudios.github.io/site/repo/depictions/flatfolder/fla
 Name: FlatFolder
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
 
+Package: com.wavelink.simpcircnopercent
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: TD
+Depends: com.spark.juice
+Filename: ./debs/SimpCircNoPercent-1.0.0.deb
+Size: 1714
+MD5sum: 47c6f2c6729ba6c5cba0689a894f9b44
+SHA1: be39b74047f3e04b7990f74bf01d79a6f92dce55
+SHA256: 4680e5399c2fd0029fa8d6cfc3ecfc07d59d810104360b35dabc93f599570149
+Section: Themes (Juice)
+Description: Default Juice theme upgraded.
+Author: TD
+Depiction: https://wavelinkstudios.github.io/site/repo/depictions/simpcircnopercent/simpcircnopercent.html
+Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/SCNP.png
+Name: Simple Circle No Percent
+Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/simpcircnopercent.json
+
