@@ -16,17 +16,17 @@ Name: Better Dark
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/betterdark.json
 
 Package: com.wavelink.bundleidsxi
-Version: 1.3.1
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: TD
 Installed-Size: 336
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxinoappicons
-Filename: ./debs/com.wavelink.bundleidsxi_1.3.1_iphoneos-arm.deb
-Size: 121734
-MD5sum: 2cc9f83ae6977597fc9125c79ce1b6b0
-SHA1: 1242662ce0e52bf2b4def8c163300fff11b87c46
-SHA256: bb9baa18d09e31e60e1b07b0c5da71937fbef2c17d6fe3a75488825c3e2c781e
+Filename: ./debs/com.wavelink.bundleidsxi_1.4.0_iphoneos-arm.deb
+Size: 121836
+MD5sum: 0759c61730589469f859512660b7f383
+SHA1: f949e92b5402f7489a180f744c0389675ede2a6d
+SHA256: e16dadbc589b8eea7448f25dba6e9f4a1c15ad2a0ebd70b9dae77cd27a8d9ae4
 Section: Utilities
 Description: App to see installed app bundle IDs.
 Author: TD
@@ -36,17 +36,17 @@ Name: BundleIDsXI
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
 
 Package: com.wavelink.bundleidsxinoappicons
-Version: 1.3.1
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: TD
-Installed-Size: 300
+Installed-Size: 332
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxi
-Filename: ./debs/com.wavelink.bundleidsxinoappicons_1.3.1_iphoneos-arm.deb
-Size: 121228
-MD5sum: e0781361bea32ddcc20a0c2e6b7d4104
-SHA1: 0240fea25c2325e03304edfb01a26480447e1cdc
-SHA256: ceada69ab19c3bbe8763aab69d5cb90ec73eb14b5a9dae9eeb3486211be762b6
+Filename: ./debs/com.wavelink.bundleidsxinoappicons_1.4.0_iphoneos-arm.deb
+Size: 121452
+MD5sum: 97e57df31b194054e2932a3a69e7f7f9
+SHA1: 250356e4988bffd61762064ecf607f8333c822ba
+SHA256: e625cfe5c732c7bcfd7991510ba43242bcbf13ee7d41f3fd7d3a1005a24195f2
 Section: Utilities
 Description: App to see installed app bundle IDs.
 Author: TD
