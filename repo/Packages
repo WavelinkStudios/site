@@ -11,43 +11,40 @@ Description: Dark stock inspired icons.
 Name: Better Dark
 Author: Drone_Better
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/betterdark/betterdark.html
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/betterdark.json
 
 Package: com.wavelink.bundleidsxi
-Version: 1.4.1
+Version: 1.4.2
 Section: Utilities
 Maintainer: TD
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxinoappicons
 Architecture: iphoneos-arm
-Filename: ./debs///com.wavelink.bundleidsxi_1.4.1_iphoneos-arm.deb
-Size: 121810
+Filename: ./debs///com.wavelink.bundleidsxi_1.4.2_iphoneos-arm.deb
+Size: 121840
 Installed-Size: 336
-MD5sum: 2786c4d339f15007909d0102e7c1835d
+MD5sum: 6568bfc3af51be3159355509c5620905
 Description: App to see installed app bundle IDs.
 Name: BundleIDsXI
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
 
 Package: com.wavelink.bundleidsxinoappicons
-Version: 1.4.1
+Version: 1.4.2
 Section: Utilities
 Maintainer: TD
 Depends: applist
 Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxi
 Architecture: iphoneos-arm
-Filename: ./debs///com.wavelink.bundleidsxinoappicons_1.4.1_iphoneos-arm.deb
-Size: 121494
+Filename: ./debs///com.wavelink.bundleidsxinoappicons_1.4.2_iphoneos-arm.deb
+Size: 121614
 Installed-Size: 332
-MD5sum: 76d962a6b4611d29a109cd0e913b92e2
+MD5sum: 8eca87f3f9473cda5b60292b81f4c21a
 Description: App to see installed app bundle IDs.
 Name: BundleIDsXI (No App Icons)
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxinoappicons/bidsxinoappicons.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxinoappicons.json
 
 Package: com.wavelink.flatfolder
 Version: 0.0.2
@@ -63,7 +60,6 @@ Description: Flatten out them folders!
 Name: FlatFolder
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/flatfolder/flatfolder.html
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
 
 Package: com.wavelink.simpcircnopercent
 Version: 1.0.0
@@ -79,5 +75,4 @@ Name: Simple Circle No Percent
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/simpcircnopercent/simpcircnopercent.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/SCNP.png
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/simpcircnopercent.json
 

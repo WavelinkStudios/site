@@ -44,7 +44,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.4.1"
+                    "text": "1.4.2"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -80,6 +80,19 @@
             "tabname": "Changelog",
             "tintColor": "#148F77",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.4.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.5.5 beta 1."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
