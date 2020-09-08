@@ -11,6 +11,7 @@ Description: Dark stock inspired icons.
 Name: Better Dark
 Author: Drone_Better
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/betterdark/betterdark.html
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/betterdark.json
 
 Package: com.wavelink.bundleidsxi
 Version: 1.4.2
@@ -28,6 +29,7 @@ Name: BundleIDsXI
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
 
 Package: com.wavelink.bundleidsxinoappicons
 Version: 1.4.2
@@ -45,6 +47,7 @@ Name: BundleIDsXI (No App Icons)
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxinoappicons/bidsxinoappicons.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxinoappicons.json
 
 Package: com.wavelink.flatfolder
 Version: 0.0.2
@@ -60,6 +63,7 @@ Description: Flatten out them folders!
 Name: FlatFolder
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/flatfolder/flatfolder.html
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/flatfolder.json
 
 Package: com.wavelink.simpcircnopercent
 Version: 1.0.0
@@ -75,6 +79,7 @@ Name: Simple Circle No Percent
 Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/simpcircnopercent/simpcircnopercent.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/SCNP.png
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/simpcircnopercent.json
 
 Package: website.leifs.deltastonedpenguin
 Version: 3.0.0
@@ -90,4 +95,4 @@ Name: Stoned Penguin - Delta Beta
 Author: Leif Niemczik
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/stonedpenguin/stonedpenguin.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/StonedPenguinIcon.png
-
+SileoDepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/stonedpenguin.json

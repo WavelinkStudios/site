@@ -76,11 +76,11 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
-                    "title": "Version 1.0.0"
+                    "title": "Version 3.0.0"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Initial Release"
+                    "markdown": "Updating package for iOS 13"
                 }
             ]
         }
