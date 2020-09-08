@@ -23,5 +23,10 @@
           "package":"com.wavelink.bundleidsxinoappicons",
           "url":"https://wavelinkstudios.github.io/site/repo/featImg/bids-icon@3x.png"
        }
+       {
+         "title":"Stoned Penguin - Delta Beta",
+         "package":"website.leifs.deltastonedpenguin",
+         "url":"https://wavelinkstudios.github.io/site/repo/featImg/StonedPenguinBanner.png"
+      },
     ]
  }

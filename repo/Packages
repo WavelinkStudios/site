@@ -76,3 +76,18 @@ Author: TD
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/simpcircnopercent/simpcircnopercent.html
 Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/SCNP.png
 
+Package: website.leifs.deltastonedpenguin
+Version: 3.0.0
+Section: Themes (Springboard)
+Maintainer: TD
+Depends: com.spark.snowboard
+Architecture: iphoneos-arm
+Filename: ./debs///StonedPenguin.deb
+Size: 2797860
+MD5sum: 003cd5528d660f7aaf93a674aa47d89c
+Description: Beta Pastel Goodness for your Springboard
+Name: Stoned Penguin - Delta Beta
+Author: Leif Niemczik
+Depiction: https://wavelinkstudios.github.io/site/repo/depictions/stonedpenguin/stonedpenguin.html
+Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/StonedPenguinIcon.png
+
