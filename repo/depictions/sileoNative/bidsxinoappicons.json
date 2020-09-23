@@ -84,6 +84,16 @@
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,
                     "useBottomMargin": false,
+                    "title": "Version 1.4.3"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.6, 13.6.1, & 13.7."
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
                     "title": "Version 1.4.2"
                 },
                 {
