@@ -44,7 +44,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.0.0"
+                    "text": "1.0.1"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -80,6 +80,16 @@
             "tabname": "Changelog",
             "tintColor": "#148F77",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Adjusting repo section"
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,

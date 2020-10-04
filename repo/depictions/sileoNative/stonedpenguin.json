@@ -22,7 +22,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "*Supports Snowboard Compatible Devices*\n\nBeta build of Delta Icon Pack.\n\nPastel Goodness for iOS and Android.\n\nNow on a platform near you.\n\nDelta is a passion project by Leif Niemczik open sourced and helped by awesome people. Starting off as a beautification for his homescreen it has since become a top-ranking app in the Google Play Store and was featured in the #myandroid-campaign. With over half a million downloads and 1400+ icons Lief wants to open it up to other platforms like iOS and macOS with the help of the commiunity he built.\n\nSo if you feel like helping just head over to GitHub and see if you find something you'd like to add, or just enjoy your new homescreen."
+                    "markdown": "*Supports Snowboard Compatible Devices*\n\n**Requires Snowboard Settings Icons Extension from SparkDev's Repo https://sparkdev.me*\n\nBeta build of Delta Icon Pack.\n\nPastel Goodness for iOS and Android.\n\nNow on a platform near you.\n\nDelta is a passion project by Leif Niemczik open sourced and helped by awesome people. Starting off as a beautification for his homescreen it has since become a top-ranking app in the Google Play Store and was featured in the #myandroid-campaign. With over half a million downloads and 1400+ icons Lief wants to open it up to other platforms like iOS and macOS with the help of the commiunity he built.\n\nSo if you feel like helping just head over to GitHub and see if you find something you'd like to add, or just enjoy your new homescreen."
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -36,7 +36,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "3.0.0"
+                    "text": "3.0.1"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -72,6 +72,16 @@
             "tabname": "Changelog",
             "tintColor": "#148F77",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 3.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Adding missing dependencies. Updating repo section."
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "useBoldText": true,

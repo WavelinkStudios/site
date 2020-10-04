@@ -1,0 +1,298 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#148F77",
+    "headerImage": "https://wavelinkstudios.github.io/site/repo/featImg/bids-icon@3x.png",
+    "tabs": [
+        {
+            "class":"DepictionStackView",
+            "tabname": "Details",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 284}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot One",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi(11-13)\/screenshots\/shot1.jpg" 
+                        },
+                        {
+                            "accessibilityText": "Screenshot Two",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi(11-13)\/screenshots\/shot2.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot Three",
+                            "url": "https:\/\/wavelinkstudios.github.io\/site\/repo\/depictions\/bidsxi(11-13)\/screenshots\/shot3.jpg"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "*Supports iOS 11-13*\n\nThis app allows you to see the Bundle ID's of all the applications installed on your device.\n\nThis package is completely open sourced and can be found on github!"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information",
+                    "useBoldText": true,
+                    "useBottomMargin": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.5.0"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "TD"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
+                },
+                {
+                    "class":"DepictionStackView",
+                    "views":[
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Follow Wavelink on Twitter",
+                            "action": "https:\/\/twitter.com\/wavelinkstudios",
+                            "openExternal": true
+                        },
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "Github Source Code",
+                            "action": "https:\/\/github.com\/tdadvocate",
+                            "openExternal": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "tintColor": "#148F77",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.5.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Minor final bug fixes and changes for iOS 11 and 12."
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.4.3"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.6, 13.6.1, & 13.7."
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.4.2"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.5.5 beta 1."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.4.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.5."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.4.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Copy all now displays app names with their bundle IDs.Other minor code changes."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.3.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 13.4. Fixes depictions. Adds icon in supported package managers."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.3.0"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "iOS 13 Support - Thanks to Ethan Whited for this fix! Hides new internal applications added with iOS 13.0-13.3.1. Brings back manual dismissal for the single app alert view by popular demand."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.2.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Adds constraint so that it cannot be used on iOS 13+ due to springboard crash from Ryan Petrich's AppList. Adds conflict with the new version without app icons."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.2.0-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "A12 Support. Hides new internal applications added with iOS 12.1-12.4."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.1.1-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Hides new internal applications added with iOS 12. Code modernisations."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.1.0-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Brand new app icon by @xerusdesign. Updated alert views. Brand new Copy All feature. Code modernisations."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.0.2-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Major bug fixes. Corrects a bug where applist wasn't a dependency and would cause the app to crash if not installed."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.0.1-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Minor bug fixes. Fixed a bug causing icons to not be hidden that should be. Fixed a bug causing icons to be hidden that should not be."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 1.0.0-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Initial release. Fixed app icons not always showing."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 0.0.7-1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Final alpha release. Full iPhone X support. Change to popup window to show that the Bundle ID was copied to your clipboard. Minor code updates."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 0.0.6-1+debug"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Second alpha release. Minor unlogged changes to code."
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Version 0.0.5-1+debug"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "First alpha release. Initial iOS 11-11.4 beta 3 support."
+                }
+            ]
+        }
+    ]
+}
