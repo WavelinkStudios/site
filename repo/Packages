@@ -1,14 +1,14 @@
 Package: com.wavelink.betterdark
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: TD
 Depends: com.spark.snowboard
-Filename: ./debs/BetterDark-1.0.0.deb
-Size: 12304678
-MD5sum: 9d768483513cdded492a8d104e58a434
-SHA1: 8a0a2feffa5375cc4251d9f233e7f9a6abfb482a
-SHA256: 04200e5b50517d9e91c6b3ad44f5bcfb5a0dae4847ccf74e73c01a4087e1a2eb
-Section: Themes
+Filename: ./debs/BetterDark-1.0.1.deb
+Size: 12304208
+MD5sum: 92b997731b80e3c51d3dff6715fb156d
+SHA1: 1de30b7f17edbb55f5eb996077cb2f495bf4d6d1
+SHA256: 1aed877aba29aea2028c1aa63f4cd52ac15efe4e6c529a2642114487404703dc
+Section: Themes (Springboard)
 Description: Dark stock inspired icons.
 Author: Drone_Better
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/betterdark/betterdark.html
@@ -16,24 +16,23 @@ Name: Better Dark
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/betterdark.json
 
 Package: com.wavelink.bundleidsxi
-Version: 1.4.3
+Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: TD
-Installed-Size: 336
-Depends: applist
-Conflicts: com.td.bundleidsxi, com.wavelink.bundleidsxinoappicons
-Filename: ./debs/com.wavelink.bundleidsxi_1.4.3_iphoneos-arm.deb
-Size: 122722
-MD5sum: 3abbe198826fac386fdd7488fba88249
-SHA1: 3041917c87e4973c832f6fdcaee082ff419fbd00
-SHA256: d24a9f485b1b2a0ffbdc9519869aa4056bd3f5c6aaad6b29b9488191e3534c92
+Installed-Size: 432
+Depends: mobilesubstrate, firmware (>=13.0)
+Filename: ./debs/com.wavelink.bundleidsxi_2.0_iphoneos-arm.deb
+Size: 49194
+MD5sum: d81291dafeaf718c1230d4d444e973b4
+SHA1: ab4a11357790004bccccb2e5f9e275609d71fb66
+SHA256: 55c1b9ae9dd7c545196a17d664547ae6e23dc9599bf1fb35eecd70866a7af689
 Section: Utilities
 Description: App to see installed app bundle IDs.
-Author: TD
-Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi/bidsxi.html
-Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi.png
+Author: TD/nahtedetihw
+Depiction: https://wavelinkstudios.github.io/site/repo/depictions/bidsxi(13+)/bidsxi.html
+Icon: https://wavelinkstudios.github.io/site/repo/packageIcons/bidsxi2-icon.png
 Name: BundleIDsXI
-Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi.json
+Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/bidsxi(13+).json
 
 Package: com.wavelink.bundleidsxinoappicons
 Version: 1.4.3
@@ -92,16 +91,16 @@ Name: Simple Circle No Percent
 Sileodepiction: https://wavelinkstudios.github.io/site/repo/depictions/sileoNative/simpcircnopercent.json
 
 Package: website.leifs.deltastonedpenguin
-Version: 3.0.0
+Version: 3.0.1
 Architecture: iphoneos-arm
 Maintainer: TD
-Depends: com.spark.snowboard
-Filename: ./debs/StonedPenguin.deb
-Size: 2797860
-MD5sum: 003cd5528d660f7aaf93a674aa47d89c
-SHA1: e66974c953b3166b44d9410ec021c7ba00ba8cf4
-SHA256: 937094a3a55d06210f15ec58b9fb8ea6a06f338320b7389553b45c284a593fa8
-Section: Themes (Springboard)
+Depends: com.spark.snowboard, com.spark.snowboard.settingsicons
+Filename: ./debs/StonedPenguin-3.0.1.deb
+Size: 3231912
+MD5sum: 849b2edf7f86809dbbcfa267a20a9ce0
+SHA1: b433d3eb42bc81288b9e913ce6248774ae837da0
+SHA256: 0906b68b5e4740d65527e5fa7dab1601f40678c2ff8da2389aa1aefdd35916a9
+Section: Themes (Springboard Plus)
 Description: Beta Pastel Goodness for your Springboard
 Author: Leif Niemczik
 Depiction: https://wavelinkstudios.github.io/site/repo/depictions/stonedpenguin/stonedpenguin.html
